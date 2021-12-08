@@ -10,7 +10,7 @@ const config = {
 };
 
 (async function main() {
-   let response = await putItem(config, 'inbound', 'test20211130.txt');
+   let response = await putItem(config, 'inbound', 'upload_testing_hrk.txt');
    console.log(response);
 })();
 
